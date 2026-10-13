@@ -112,7 +112,7 @@
             <small><span class="en">open to all of France · school provides the internship agreement</span><span class="fr">mobile partout en France · convention fournie par l'école</span></small></span></li>
           <li><span class="now__ic" style="background:var(--peach)">🚀</span>
             <span><b><span class="en">Latest project: JobsTracker</span><span class="fr">Dernier projet : JobsTracker</span></b>
-            <small><a href="https://github.com/malek-sfeihi/JobsTracker" target="_blank" rel="noopener"><span class="en">online soon · code on GitHub ↗</span><span class="fr">bientôt en ligne · code sur GitHub ↗</span></a></small></span></li>
+            <small><a href="https://github.com/malek-sfeihi/JobsTracker" target="_blank" rel="noopener"><span class="en">Chrome extension for Gmail · code ↗</span><span class="fr">extension Chrome pour Gmail · code ↗</span></a></small></span></li>
         </ul>
       </div>
     </aside>
@@ -126,7 +126,7 @@
       <div class="stat__l"><span class="en">of work-study as a full-stack developer at Oodrive</span><span class="fr">d'alternance en développement full stack chez Oodrive</span></div></div>
     <div class="stat"><div class="stat__v">~10</div>
       <div class="stat__l"><span class="en">production services I migrated from Java 8 to Java 17</span><span class="fr">services en production que j'ai migrés de Java 8 à Java 17</span></div></div>
-    <div class="stat"><div class="stat__v">5</div>
+    <div class="stat"><div class="stat__v">4</div>
       <div class="stat__l"><span class="en">personal and school projects public on GitHub, one of them live online</span><span class="fr">projets perso et d'école publics sur GitHub, dont un en ligne</span></div></div>
   </div>
 </div>
@@ -282,8 +282,8 @@
         <span class="fr">Ce que je code en dehors du travail</span>
       </h2>
       <p class="sec__lede">
-        <span class="en">My final project, personal and school projects, public on GitHub.</span>
-        <span class="fr">Mon PFE, mes projets perso et d'école, publics sur GitHub.</span>
+        <span class="en">My final project, personal and school projects.</span>
+        <span class="fr">Mon PFE, mes projets perso et d'école.</span>
       </p>
     </div>
 
@@ -297,12 +297,23 @@
           <span class="prod__k"><span class="en">2026 · latest project</span><span class="fr">2026 · dernier projet</span></span>
           <h3 class="prod__t">JobsTracker</h3>
           <p class="prod__d">
-            <span class="en">A calm morning dashboard for a job search. Reads Gmail (read-only, OAuth2), classifies application emails in English and French, groups them by company and position, and shows statuses and rejection reasons. Incremental sync every morning, SQLite, Streamlit, pytest.</span>
-            <span class="fr">Un tableau de bord du matin pour une recherche d'emploi. Lit Gmail (lecture seule, OAuth2), classe les emails de candidature en anglais et en français, les regroupe par entreprise et poste, et affiche statuts et raisons de refus. Synchro incrémentale chaque matin, SQLite, Streamlit, pytest.</span>
+            <span class="en">A Chrome extension for my job search. In Gmail, a 🌿 JobsTracker button appears: one click, Google sign-in, and I land on my dashboard. It reads my emails read-only, classifies them (confirmation, rejection, assessment, interview, offer) in English and French, groups them by company and position, and shows each status and rejection reason.</span>
+            <span class="fr">Une extension Chrome pour ma recherche de stage. Dans Gmail, un bouton 🌿 JobsTracker apparaît : un clic, connexion Google, et j'arrive sur mon dashboard. Il lit mes emails en lecture seule, les classe (confirmation, refus, test, entretien, offre) en français et en anglais, les regroupe par entreprise et par poste, et affiche le statut et la raison de chaque refus.</span>
           </p>
+          <ul class="feat en">
+            <li>Chrome extension (Manifest V3) injected into Gmail</li>
+            <li>Online Streamlit dashboard with Google sign-in, PostgreSQL via SQLAlchemy</li>
+            <li>Incremental Gmail sync (OAuth2, read-only), tested with pytest</li>
+          </ul>
+          <ul class="feat fr">
+            <li>Extension Chrome (Manifest V3) intégrée à Gmail</li>
+            <li>Dashboard Streamlit en ligne avec connexion Google, PostgreSQL via SQLAlchemy</li>
+            <li>Synchronisation Gmail incrémentale (OAuth2, lecture seule), tests pytest</li>
+          </ul>
+          <ul class="tags"><li>Python</li><li>Chrome Extension</li><li>Gmail API</li><li>OAuth2</li><li>Streamlit</li><li>PostgreSQL</li><li>pytest</li></ul>
           <div class="prod__foot">
             <a class="link" href="https://github.com/malek-sfeihi/JobsTracker" target="_blank" rel="noopener">Code ↗</a>
-            <span class="lang-dot" style="--dot:#7FB3E8">Python</span>
+            <span class="lang-dot" style="--dot:#7FB3E8">Python · JS</span>
           </div>
         </div>
       </article>
@@ -377,20 +388,30 @@
       </article>
 
       <article class="prod reveal">
-        <div class="media media--pink">
-          <div class="media__ph"><span class="ic">🍄</span><small>Design patterns</small></div>
-          <img src="assets/img/mario.png" alt="Mario design patterns" data-ph>
+        <div class="media media--lav">
+          <div class="media__ph"><span class="ic">🤖</span><small>Claude Code · 10 skills</small></div>
+          <img src="assets/img/cv-assistant.png" alt="CV AI Assistant" data-ph>
         </div>
         <div class="prod__body">
-          <span class="prod__k">TEK-UP · 2025</span>
-          <h3 class="prod__t">Mario Design Patterns</h3>
+          <span class="prod__k"><span class="en">2026 · in progress</span><span class="fr">2026 · en cours</span></span>
+          <h3 class="prod__t">CV AI Assistant</h3>
           <p class="prod__d">
-            <span class="en">A Mario game model to practice design patterns: State (Small, Super, Fire, Ice Mario), Decorator (power-ups), combat system, with automated tests per pattern.</span>
-            <span class="fr">Un modèle de jeu Mario pour pratiquer les design patterns : State (Small, Super, Fire, Ice Mario), Decorator (power-ups), système de combat, avec des tests automatisés par pattern.</span>
+            <span class="en">My application assistant, built with Claude Code. From a job posting, it checks my eligibility (length, dates, visa), tailors my CV into a one-page ATS-friendly PDF, checks the keywords and writes the cover letter, always from one master profile and without inventing anything.</span>
+            <span class="fr">Mon assistant de candidature, construit avec Claude Code. À partir d'une offre, il vérifie mon éligibilité (durée, dates, visa), adapte mon CV en PDF une page lisible par les ATS, contrôle les mots-clés et rédige la lettre de motivation, toujours à partir d'un seul profil de référence et sans rien inventer.</span>
           </p>
+          <ul class="feat en">
+            <li>10 Claude Code skills (eligibility, CV tailoring, ATS check, cover letter…)</li>
+            <li>Python PDF generator (ReportLab) that shrinks the layout to fit one page</li>
+            <li>Next idea: a plugin and automation, e.g. send a job post from Telegram or WhatsApp</li>
+          </ul>
+          <ul class="feat fr">
+            <li>10 skills Claude Code (éligibilité, adaptation du CV, contrôle ATS, lettre…)</li>
+            <li>Générateur de PDF en Python (ReportLab) qui ajuste la mise en page pour tenir sur une page</li>
+            <li>Prochaine idée : un plugin et de l'automatisation, par exemple envoyer une offre depuis Telegram ou WhatsApp</li>
+          </ul>
           <div class="prod__foot">
-            <a class="link" href="https://github.com/malek-sfeihi/marioDesignPattern" target="_blank" rel="noopener">Code ↗</a>
-            <span class="lang-dot" style="--dot:#E8A06B">Java</span>
+            <span class="link" style="color:var(--mut)"><span class="en">Private · personal data</span><span class="fr">Privé · données personnelles</span></span>
+            <span class="lang-dot" style="--dot:#C9B8F5">Python · LLM</span>
           </div>
         </div>
       </article>
