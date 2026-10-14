@@ -585,3 +585,7 @@ ul.feat li::before { content: ""; position: absolute; left: 2px; top: 8px; width
 .nav__cta { padding: 9px 16px; flex: none; }
 @media (max-width: 860px) { .nav__cta { margin-left: auto; } .nav__tools { margin-left: 0; } }
 @media (max-width: 420px) { .nav__cta { padding: 9px 12px; font-size: 10.5px; } }
+
+/* visuels provisoires */
+.media__ph .ic--big { font-size: 56px; }
+.media img.media__doc { object-fit: cover; object-position: top center; padding: 18px 18% 0; filter: drop-shadow(0 10px 20px rgba(42,35,64,.25)); }
